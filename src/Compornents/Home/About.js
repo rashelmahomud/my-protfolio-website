@@ -1,10 +1,11 @@
 import React from 'react';
+import AboutUs from './AboutUs';
 import Skill from './Skill';
 
 const About = () => {
     return (
         <div className='my-20'>
-            <h1>About Us </h1>
+            <AboutUs></AboutUs>
             <Skill></Skill>
         </div>
     );
