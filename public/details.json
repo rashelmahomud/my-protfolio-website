@@ -1,0 +1,12 @@
+[
+
+
+{"_id":1,"img":"https://i.ibb.co/n79RwSL/project-1.jpg","img2":"https://i.ibb.co/FJt2VDc/laptop-2.jpg","img3":"https://i.ibb.co/YdL2CMv/laptop-3.jpg", "name":"Laptop Parts website!","dec":" HTML, Tailwind CSS, JavaScript ES6,React.js, Node.js"},
+
+{"_id":2,"img":"https://i.ibb.co/qpfFLNQ/project-2.jpg","name":"Carphone Warehouse website!","dec":" HTML, Tailwind CSS, JavaScript ES6,React.js, Node.js"},
+
+{"_id":3,"img":"https://i.ibb.co/XXTcbGd/project-3.jpg","name":"National Photography website!","dec":" HTML, Bootstrap-5, JavaScript ES6,React.js"}
+
+
+
+]

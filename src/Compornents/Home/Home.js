@@ -1,5 +1,5 @@
 import React from 'react';
-import Protfolio from '../Protfolio/Protfolio';
+import Projetces from '../Protfolio/Projetces';
 import AboutUs from './AboutUs';
 import Contact from './Contact';
 import Gellery from './Gellery';
@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Gellery></Gellery>
-            <Protfolio></Protfolio>
+            <Projetces></Projetces>
             <AboutUs></AboutUs>
             <Contact></Contact>
         </div>
