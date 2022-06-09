@@ -1,0 +1,4 @@
+img.rounded-xl:hover {
+    transform: scale(2, 3);
+    transition: 0.3s;
+}
