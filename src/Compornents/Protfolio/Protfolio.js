@@ -22,7 +22,8 @@ const Protfolio = () => {
                         <h2 class="card-title">Laptop Parts website!</h2>
                         <p>HTML, Tailwind CSS, JavaScript ES6,React.js, Node.js</p>
                         <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+                            {/* <button class="btn btn-primary">Buy Now</button> */}
+                            <a className='btn' target="_blank" href="https://laptop-pats.web.app/">Click For Live</a>
                         </div>
                     </div>
                 </div>
@@ -35,7 +36,7 @@ const Protfolio = () => {
                         <h2 class="card-title">Carphone Warehouse website!</h2>
                         <p>HTML, Tailwind CSS, JavaScript ES6,React.js, Node.js</p>
                         <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <a className='btn' target="_blank" href="https://carphone-warehouse-d843f.web.app/">Click For Live</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +49,7 @@ const Protfolio = () => {
                         <p>HTML, Bootstrap-5, JavaScript ES6,React.js</p>
                         <div class="card-actions">
 
-                            <button class="btn btn-primary">Buy Now</button>
+                            <a className='btn' target="_blank" href="https://best-photography-19d6d.web.app/">Click For Live</a>
                         </div>
                     </div>
                 </div>
