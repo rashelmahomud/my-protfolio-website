@@ -30,6 +30,7 @@ const ProtfolioDetails = () => {
             <div className='text-center'>
                 <h1 className='text-4xl'>Website Name: <span className='text-4xl text-primary font-bold'>{newService[0]?.name}</span></h1>
                 <p> Technology used: {newService[0]?.dec}</p>
+                <h3 className='lg:w-3/5 p-5 lg:ml-60 my-10'>{newService[0]?.details}</h3>
 
 
             </div>
