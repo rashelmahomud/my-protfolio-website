@@ -1,10 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import './Protfolio.css';
 
 const Protfolio = ({ service }) => {
 
-
+    const navigate = useNavigate();
+    const handelDetails = id => {
+        navigate(`details/${id}`)   
+    }
     return (
         <div>
             <div >
@@ -16,7 +20,7 @@ const Protfolio = ({ service }) => {
                         <h2 className="card-title">{service.name}</h2>
                         <p>{service.dec}</p>
                         <div className="card-actions">
-                            <button className="btn btn-primary">Details</button>
+                            <button onClick={ () => handelDetails(service._id)} className="btn btn-primary">Details</button>
                             <a className='btn' target="_blank" href="https://laptop-pats.web.app/">Click For Live</a>
                         </div>
                     </div>
