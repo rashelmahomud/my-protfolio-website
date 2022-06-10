@@ -11,6 +11,7 @@ const Navber = () => {
                     </label>
                     <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link to="/home">Home</Link></li>
+                        <li><Link to="/blogs">Blogs</Link></li>
                         <li><a target="_blank" href='https://web.facebook.com/messages/t/100015152085518/'>Hire Me </a></li>
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/about">About</Link></li>
@@ -21,6 +22,7 @@ const Navber = () => {
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 font-bold">
                     <li><Link to="/home">Home</Link></li>
+                    <li><Link to="/blogs">Blogs</Link></li>
                     <li><a target="_blank" href='https://web.facebook.com/messages/t/100015152085518/'>Hire Me</a></li>
                     <li><Link to="/contact">Contact</Link></li>
                     <li><Link to="/about">About</Link></li>
