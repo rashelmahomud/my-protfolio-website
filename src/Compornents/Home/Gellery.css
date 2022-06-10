@@ -1,0 +1,56 @@
+.slid {
+
+    width: 100px;
+    height: 50px;
+    background-color: #ff00ff03;
+    color: #19d2ad;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+#div1 {
+    animation-timing-function: linear;
+}
+
+#div2 {
+    animation-timing-function: ease;
+}
+
+#div3 {
+    animation-timing-function: ease-in;
+}
+
+#div4 {
+    animation-timing-function: ease-out;
+}
+
+#div5 {
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+
+.image {
+    /* width: 100px;
+    height: 100px; */
+    background-color: #b698981f;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: rgb(218, 140, 140);}
+    25%  {background-color: rgb(218, 218, 165);}
+    50%  {background-color: rgb(127, 127, 205);}
+    100% {background-color: rgb(142, 228, 142);}
+  }
