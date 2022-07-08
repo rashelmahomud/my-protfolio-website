@@ -8,38 +8,38 @@ const Skill = () => {
             </div>
 
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-20'>
 
 
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-96 bg-slate-600 shadow-xl">
                     <div class="card-body">
                         <div className='text-center'>
-                            <div class="radial-progress bg-white font-bold text-primary-content border-primary" style={{ "--value": 90 }}>90%</div>
-                            <p className='font-bold mt-3'>HTML & CSS</p>
+                            <div class="radial-progress font-bold border-primary text-white" style={{ "--value": 90 }}>90%</div>
+                            <p className='font-bold mt-3 pragraph-color'>HTML & CSS</p>
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-96 bg-slate-700 shadow-xl">
                     <div class="card-body">
                         <div className='text-center'>
-                            <div class="radial-progress bg-white font-bold text-primary-content border-primary" style={{ "--value": 70 }}>70%</div>
-                            <p className='font-bold mt-3'>JavaScript</p>
+                            <div class="radial-progress font-bold border-primary text-white" style={{ "--value": 70 }}>70%</div>
+                            <p className='font-bold mt-3 pragraph-color'>JavaScript</p>
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-96 bg-slate-800 shadow-xl">
                     <div class="card-body">
                         <div className='text-center'>
-                            <div class="radial-progress bg-white font-bold text-primary-content border-primary" style={{ "--value": 80 }}>80%</div>
-                            <p className='font-bold mt-3'>React.JS</p>
+                            <div class="radial-progress font-bold border-primary text-white" style={{ "--value": 80 }}>80%</div>
+                            <p className='font-bold mt-3 pragraph-color'>React.JS</p>
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-96 bg-slate-900 shadow-xl">
                     <div class="card-body">
                         <div className='text-center'>
-                            <div class="radial-progress bg-white font-bold text-primary-content border-primary" style={{ "--value": 70 }}>70%</div>
-                            <p className='font-bold mt-3'>Node.JS</p>
+                            <div class="radial-progress font-bold border-primary text-white" style={{ "--value": 70 }}>70%</div>
+                            <p className='font-bold mt-3 pragraph-color'>Node.JS</p>
                         </div>
                     </div>
                 </div>

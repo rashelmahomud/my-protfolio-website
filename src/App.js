@@ -12,7 +12,7 @@ import ProtfolioDetails from './Compornents/Protfolio/ProtfolioDetails';
 
 function App() {
   return (
-    <div>
+    <div className='bg-slate-900'>
       <Navber></Navber>
 
       <Routes>
