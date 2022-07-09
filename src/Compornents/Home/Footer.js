@@ -37,7 +37,7 @@ const Footer = () => {
 
 
             </footer>
-            <h1 className='pragraph-color ml-20 text-xl pb-5 px-20'>© 2021 Rashel Mahomud</h1>
+            <h1 className='pragraph-color ml-20 text-xl pb-5 px-20'>© 2022 Rashel Mahomud</h1>
 
         </div>
     );

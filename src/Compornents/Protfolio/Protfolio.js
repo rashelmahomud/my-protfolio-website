@@ -7,21 +7,23 @@ const Protfolio = ({ service }) => {
 
     const navigate = useNavigate();
     const handelDetails = id => {
-        navigate(`details/${id}`)   
+        navigate(`details/${id}`)
     }
     return (
         <div>
             <div >
                 <div className="card w-96 shadow-2xl justify-content-center">
                     <figure className="px-10 pt-10">
-                        <img src={service.img} alt="Shoes" className="rounded-xl" />
+                        <img src={service.img} alt="Shoes" className="rounded-xl" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title pragraph-color">{service.name}</h2>
                         <p className='pragraph-color'>{service.dec}</p>
-                        <div className="card-actions">
-                            <button onClick={ () => handelDetails(service._id)} className="btn btn-primary">Details</button>
-                            <a className='btn' target="_blank" href="https://laptop-pats.web.app/">Click For Live</a>
+                        <div className="card-actions" data-aos="zoom-in">
+                            <button onClick={() => handelDetails(service._id)} className="btn btn-primary">Details</button>
+                            <a className='btn' target="_blank" href="https://laptop-pats.web.app/" >Click For Live</a>
                         </div>
                     </div>
                 </div>

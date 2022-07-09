@@ -5,8 +5,11 @@ const AboutUs = () => {
         <div>
             <div className="hero my-20 py-20">
                 <div className="hero-content flex-col lg:flex-row">
-                    <iframe width="440" height="325" src="https://www.youtube.com/embed/rMwXojwUgfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div className='pragraph-color'>
+                    <iframe width="440" height="325" src="https://www.youtube.com/embed/rMwXojwUgfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-aos="fade-up"
+                        data-aos-duration="3000" allowfullscreen></iframe>
+                    <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500" className='pragraph-color'>
                         <h1 className="text-5xl font-bold text-secondary">About Me</h1>
                         <p className="py-6 text-xl">Why You Hire Me?
                         </p>
@@ -15,7 +18,7 @@ const AboutUs = () => {
                             More..
                             I can All website SEO Service provide for your any work. and website rank and promotions<br /> any site or product.
                             THANK YOU...TAKE LOVE
-                            
+
                         </p>
                     </div>
                 </div>
