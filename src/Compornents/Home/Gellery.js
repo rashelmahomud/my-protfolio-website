@@ -6,8 +6,10 @@ const Gellery = () => {
     return (
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
+                <div className='glarry-responsive-img'>
                 <img src={img} className="max-w-sm rounded-lg shadow image" data-aos="fade-left"
                     data-aos-duration="2000" />
+                </div>
                 <div data-aos="fade-up-right"
                     data-aos-duration="2000">
                     <h1 className="text-2xl pragraph-color font-bold" >Hi My Name is..</h1>
