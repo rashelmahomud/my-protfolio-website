@@ -8,7 +8,7 @@ const Skill = () => {
             </div>
 
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:px-20'>
 
 
                 <div className="card w-96 bg-slate-600 shadow-xl">

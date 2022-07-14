@@ -16,13 +16,13 @@ const ProtfolioDetails = () => {
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
 
-                <div className="card w-96 bg-base-100 shadow-xl my-20 mx-20">
+                <div className="card w-96 bg-base-100 shadow-xl my-3 lg:m-20">
                     <figure><img src={newService[0]?.img} alt="Shoes" /></figure>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl my-20 mx-20">
+                <div className="card w-96 bg-base-100 shadow-xl my-3 lg:m-20 ">
                     <figure><img src={newService[0]?.img2} alt="Shoes" /></figure>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl my-20 mx-20">
+                <div className="card w-96 bg-base-100 shadow-xl my-3 lg:m-20">
                     <figure><img src={newService[0]?.img3} alt="Shoes" /></figure>
                 </div>
 
