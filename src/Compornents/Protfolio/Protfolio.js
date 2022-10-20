@@ -22,8 +22,8 @@ const Protfolio = ({ service }) => {
                         <h2 className="card-title pragraph-color">{service.name}</h2>
                         <p className='pragraph-color'>{service.dec}</p>
                         <div className="card-actions" data-aos="zoom-in">
-                            <button onClick={() => handelDetails(service._id)} className="btn btn-primary">Details</button>
-                            <a className='btn' target="_blank" href="https://laptop-pats.web.app/" >Click For Live</a>
+                            <button onClick={() => handelDetails(service._id)} className="btn btn-primary">PROJECT DETAILS</button>
+                           
                         </div>
                     </div>
                 </div>

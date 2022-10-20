@@ -33,6 +33,7 @@ const ProtfolioDetails = () => {
 
                 <button className="btn btn-outline btn-info"><a href='https://github.com/rashelmahomud'>CLIENT CODE</a></button>
                 <button className="btn btn-outline btn-info"><a href='https://github.com/rashelmahomud'>SARVER CODE</a></button>
+                <button className="btn btn-outline btn-info"><a target="_blank" href={newService[0]?.liveSite}>LIVE</a></button>
 
                 <h3 className='lg:w-3/5 p-5 lg:ml-60 my-10 pragraph-color'>{newService[0]?.details}</h3>
 
