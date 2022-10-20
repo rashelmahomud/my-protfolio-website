@@ -5,7 +5,7 @@
         "img2": "https://i.ibb.co/FJt2VDc/laptop-2.jpg",
         "img3": "https://i.ibb.co/YdL2CMv/laptop-3.jpg",
         "liveSite": "https://laptop-pats.web.app/",
-        "name": "Laptop Parts website!",
+        "name": "Laptop Parts E-Commarce-Shop",
         "dec": " HTML, Tailwind CSS, JavaScript ES6,React.js, Node.js",
         "details": [
             "● This is a Warehouse related website.",
@@ -22,10 +22,11 @@
         "img2": "https://i.ibb.co/TbN5dQt/04.jpg",
         "img3": "https://i.ibb.co/QDfrgZr/03.jpg",
         "liveSite": "https://webb-school-mission-2022.vercel.app/",
-        "name": "Carphone Warehouse website!",
+        "name": "Webb School-Education",
         "dec": " HTML, Tailwind CSS, JavaScript ES6,React.js, Node.js",
         "details": [
-            "● This is a Carphone Warehouse Mobile shop.",
+            "● Webb School(Team-Project)",
+            "● This is a Educations Basis Website.",
             "● Mobile responsive Website.",
             "● Implemented a beautiful user interface.",
             "● Sallers Can product add or manage add page Also sellers cancel add.",
@@ -39,13 +40,13 @@
         "img2": "https://i.ibb.co/cQS8FLD/sf.jpg",
         "img3": "https://i.ibb.co/TWJfX20/2s.jpg",
         "liveSite": "https://lezenda-orange-8k2l.vercel.app/",
-        "name": "National Photography website!",
-        "dec": " HTML, Bootstrap-5, JavaScript ES6,React.js",
+        "name": "Lezenda E-Commarce-Shop",
+        "dec": " HTML, Tailwind CSS, JavaScript ES6,React.js",
         "details": [
-            "● This is a Photography website.",
+            "● This is a Lezenda E-commarce Shop.",
             "● Mobile responsive Website.",
             "● Implemented a beautiful user interface.",
-            "● Good login, social and make user id."
+            "● User Eye Caccing Shop"
         ]
     }
 ]
