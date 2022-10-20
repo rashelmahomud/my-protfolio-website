@@ -7,7 +7,8 @@ const AboutUs = () => {
             <div className="hero my-20 py-20">
                 <div className="hero-content flex-col lg:flex-row">
                     <div>
-                        <iframe className='hello-res' width="440" height="325" src="https://www.youtube.com/embed/rMwXojwUgfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-aos="fade-up"
+
+                            <iframe className='hello-res' width="440" height="325" src="https://www.youtube.com/embed/apwS38vk5Ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" data-aos="fade-up"
                             data-aos-duration="3000" allowfullscreen></iframe>
                     </div>
                     <div data-aos="fade-down"

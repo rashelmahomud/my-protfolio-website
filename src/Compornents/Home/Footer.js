@@ -11,7 +11,7 @@ const Footer = () => {
                     <li className="step">HIRE</li>
                 </ul>
             </div>
-            <footer className="footer p-10 pragraph-color p-20">
+            <footer className="footer p-10 pragraph-color">
                 <div className='text-xl'>
                     <span className="footer-title">CALL</span>
                     <a className="link link-hover">+880 183519-9061</a>

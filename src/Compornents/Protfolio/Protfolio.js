@@ -12,7 +12,7 @@ const Protfolio = ({ service }) => {
     return (
         <div>
             <div >
-                <div className="card w-96 shadow-2xl justify-content-center">
+                <div className="card lg:w-96 shadow-2xl justify-content-center">
                     <figure className="px-10 pt-10">
                         <img src={service.img} alt="Shoes" className="rounded-xl" data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
