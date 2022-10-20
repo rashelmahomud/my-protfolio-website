@@ -5,6 +5,8 @@
         "img2": "https://i.ibb.co/FJt2VDc/laptop-2.jpg",
         "img3": "https://i.ibb.co/YdL2CMv/laptop-3.jpg",
         "liveSite": "https://laptop-pats.web.app/",
+        "client":"https://github.com/rashelmahomud/laptop-shop-client",
+        "server":"https://github.com/rashelmahomud/laptop-shop-sarver",
         "name": "Laptop Parts E-Commarce-Shop",
         "dec": " HTML, Tailwind CSS, JavaScript ES6,React.js, Node.js",
         "details": [
@@ -22,6 +24,8 @@
         "img2": "https://i.ibb.co/TbN5dQt/04.jpg",
         "img3": "https://i.ibb.co/QDfrgZr/03.jpg",
         "liveSite": "https://webb-school-mission-2022.vercel.app/",
+        "client":"https://github.com/MShafiMS/Webb-School",
+        "server":"https://github.com/MDBADSHA7/Webb-school-server",
         "name": "Webb School-Education",
         "dec": " HTML, Tailwind CSS, JavaScript ES6,React.js, Node.js",
         "details": [
@@ -40,8 +44,10 @@
         "img2": "https://i.ibb.co/cQS8FLD/sf.jpg",
         "img3": "https://i.ibb.co/TWJfX20/2s.jpg",
         "liveSite": "https://lezenda-orange-8k2l.vercel.app/",
+        "client":"https://github.com/rashelmahomud/lezenda-orange",
+        "server":"https://github.com/rashelmahomud/lezenda-orange",
         "name": "Lezenda E-Commarce-Shop",
-        "dec": " HTML, Tailwind CSS, JavaScript ES6,React.js",
+        "dec": " HTML, Tailwind CSS, JavaScript ES6,React.js, DaigyUI",
         "details": [
             "● This is a Lezenda E-commarce Shop.",
             "● Mobile responsive Website.",

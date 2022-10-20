@@ -31,8 +31,9 @@ const ProtfolioDetails = () => {
                 <h1 className='text-4xl pragraph-color'>Website Name: <span className='text-4xl text-primary font-bold'>{newService[0]?.name}</span></h1>
                 <p className='pragraph-color'> Technology used: {newService[0]?.dec}</p>
 
-                <button className="btn btn-outline btn-info"><a href='https://github.com/rashelmahomud'>CLIENT CODE</a></button>
-                <button className="btn btn-outline btn-info"><a href='https://github.com/rashelmahomud'>SARVER CODE</a></button>
+                <button className="btn btn-outline btn-info"><a href={newService[0]?.client}>CLIENT CODE</a></button>
+
+                <button className="btn btn-outline btn-info"><a href={newService[0]?.server}>SARVER CODE</a></button>
                 <button className="btn btn-outline btn-info"><a target="_blank" href={newService[0]?.liveSite}>LIVE</a></button>
 
                 <h3 className='lg:w-3/5 p-5 lg:ml-60 my-10 pragraph-color'>{newService[0]?.details}</h3>
