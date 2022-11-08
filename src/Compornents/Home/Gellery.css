@@ -1,6 +1,6 @@
-.slid {
+.slidBar {
 
-    width: 100px;
+    width: 80px;
     height: 50px;
     background-color: #ff00ff03;
     color: #19d2ad;
@@ -13,7 +13,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-#div1 {
+ #div1 {
     animation-timing-function: linear;
 }
 
@@ -22,7 +22,7 @@
 }
 
 #div3 {
-    animation-timing-function: ease-in;
+    animation-timing-function: linear;
 }
 
 #div4 {
@@ -31,7 +31,10 @@
 
 #div5 {
     animation-timing-function: ease-in-out;
-}
+} 
+
+
+
 
 @keyframes mymove {
     from {
@@ -39,7 +42,7 @@
     }
 
     to {
-        left: 300px;
+        left: 250px;
     }
 }
 

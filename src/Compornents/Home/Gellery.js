@@ -5,7 +5,7 @@ const Gellery = () => {
 
     return (
         <div className="hero min-h-screen">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero-content p-2 flex-col lg:flex-row-reverse">
                 <div className='glarry-responsive-img'>
                 <img src={img} className="lg:max-w-sm rounded-lg shadow image" data-aos="fade-left"
                     data-aos-duration="2000" />
@@ -20,12 +20,12 @@ const Gellery = () => {
                     <a className="btn btn-primary" href='https://drive.google.com/file/d/1osqUZK8Bn4-QTzTIm4N06PIaezafUDf2/view?usp=sharing' target="_blank">Downloade Resume</a>
                     <a className="btn btn-primary mx-5" target="_blank" href='https://web.facebook.com/messages/t/100015152085518/'>Hire Me</a>
 
-                    <div>
-                        <div className='slid' id="div1">HTML</div>
-                        <div className='slid' id="div2">CSS</div>
-                        <div className='slid' id="div3">JavaScript</div>
-                        <div className='slid' id="div4">React.JS</div>
-                        <div className='slid' id="div5">Node.JS</div>
+                    <div className='w-full'>
+                        <div className='slidBar' id="div1">HTML</div>
+                        <div className='slidBar' id="div2">CSS</div>
+                        <div className='slidBar' id="div3">JavaScript</div>
+                        <div className='slidBar' id="div4">React.JS</div>
+                        <div className='slidBar' id="div5">Node.JS</div>
                     </div>
                 </div>
             </div>
