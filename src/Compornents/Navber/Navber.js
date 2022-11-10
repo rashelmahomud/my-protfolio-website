@@ -17,7 +17,10 @@ const Navber = () => {
                         <li><Link to="/about">About</Link></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-2xl pragraph-color font-mono font-bold">rashelmahomud</a>
+                <Link to='/' className='btn btn-ghost normal-case text-2xl pragraph-color font-mono font-bold'>
+                    mdrashel
+                </Link>
+
             </div>
             <div className="navbar-end hidden lg:flex text-xl">
                 <ul className="menu menu-horizontal p-0 pragraph-color font-mono font-bold">

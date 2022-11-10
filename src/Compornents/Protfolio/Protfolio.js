@@ -13,7 +13,7 @@ const Protfolio = ({ service }) => {
         <div>
             <div >
                 <div className="card lg:w-96 shadow-2xl justify-content-center">
-                    <figure className="px-10 pt-10">
+                    <figure className="px-5 pt-10">
                         <img src={service.img} alt="Shoes" className="rounded-xl" data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" />
@@ -23,7 +23,7 @@ const Protfolio = ({ service }) => {
                         <p className='pragraph-color'>{service.dec}</p>
                         <div className="card-actions" data-aos="zoom-in">
                             <button onClick={() => handelDetails(service._id)} className="btn btn-primary">PROJECT DETAILS</button>
-                           
+
                         </div>
                     </div>
                 </div>

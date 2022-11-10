@@ -27,7 +27,7 @@ const Skill = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:px-20'>
 
 
-                <div className="card w-96 bg-slate-600 shadow-xl">
+                <div className="card bg-slate-600 shadow-xl bg-green-500">
                     <div className="card-body">
                         <div className='text-center'>
                             <div className="radial-progress font-bold border-primary text-white" style={{ "--value": 90 }}><CountUp start={0} end={90} duration={5} />%</div>
@@ -35,7 +35,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-slate-700 shadow-xl">
+                <div className="card  bg-slate-700 shadow-xl">
                     <div className="card-body">
                         <div className='text-center'>
                             <div className="radial-progress font-bold border-primary text-white" style={{ "--value": 70 }}><CountUp start={0} end={70} duration={5} />%</div>
@@ -43,7 +43,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-slate-800 shadow-xl">
+                <div className="card  bg-slate-800 shadow-xl bg-green-800">
                     <div className="card-body">
                         <div className='text-center'>
                             <div className="radial-progress font-bold border-primary text-white" style={{ "--value": 80 }}><CountUp start={0} end={80} duration={5} />%</div>
@@ -51,7 +51,7 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-slate-900 shadow-xl">
+                <div className="card bg-slate-900 shadow-xl bg-yellow-800">
                     <div className="card-body">
                         <div className='text-center'>
                             <div className="radial-progress font-bold border-primary text-white" style={{ "--value": 70 }}><CountUp start={0} end={70} duration={5} />%</div>
