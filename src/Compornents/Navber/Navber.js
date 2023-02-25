@@ -12,6 +12,7 @@ const Navber = () => {
                     <ul tabindex="0" className="menu menu-compact text-xl dropdown-content mt-3 p-2 shadow font-mono pragraph-color rounded-box w-52">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/blogs">Blogs</Link></li>
+                        <li><Link to="/video">Video</Link></li>
                         <li><a target="_blank" href='https://web.facebook.com/messages/t/100015152085518/'>Hire Me </a></li>
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/about">About</Link></li>
@@ -26,6 +27,7 @@ const Navber = () => {
                 <ul className="menu menu-horizontal p-0 pragraph-color font-mono font-bold">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/blogs">Blogs</Link></li>
+                    <li><Link to="/video">Video</Link></li>
                     <li><a target="_blank" href='https://web.facebook.com/messages/t/100015152085518/'>Hire Me</a></li>
                     <li><Link to="/contact">Contact</Link></li>
                     <li><Link to="/about">About</Link></li>

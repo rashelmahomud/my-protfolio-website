@@ -9,6 +9,8 @@ import Footer from './Compornents/Home/Footer';
 import Skill from './Compornents/Home/Skill';
 import Blogs from './Compornents/Home/Blogs';
 import ProtfolioDetails from './Compornents/Protfolio/ProtfolioDetails';
+import PrivetRoute from './Compornents/pivetRoute/PrivetRoute';
+import Videos from './Compornents/video/Videos';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/skill' element={<Skill></Skill>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/video' element={<Videos />}> </Route>
+        <Route path='*' element={<PrivetRoute></PrivetRoute>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
