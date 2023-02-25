@@ -9,8 +9,8 @@ import Footer from './Compornents/Home/Footer';
 import Skill from './Compornents/Home/Skill';
 import Blogs from './Compornents/Home/Blogs';
 import ProtfolioDetails from './Compornents/Protfolio/ProtfolioDetails';
-import PrivetRoute from './Compornents/pivetRoute/PrivetRoute';
 import Videos from './Compornents/video/Videos';
+import PageNotFound from './Compornents/pivetRoute/PageNotFound';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <Route path='/skill' element={<Skill></Skill>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/video' element={<Videos />}> </Route>
-        <Route path='*' element={<PrivetRoute></PrivetRoute>}></Route>
+        <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
