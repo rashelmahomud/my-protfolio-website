@@ -77,7 +77,7 @@ const Gellery = () => {
                         programming task <br />in ON  time handling the difficulties and errors<br />
                         efficiently and dedicatedly finishing any work or problems..</p>
 
-                    <a className="btn btn-primary" href='https://drive.google.com/file/d/1osqUZK8Bn4-QTzTIm4N06PIaezafUDf2/view?usp=sharing' target="_blank">Downloade Resume</a>
+                    <a className="btn btn-primary" href='https://drive.google.com/file/d/1SKh0j-Dr0jGXo0Rx47YgmR9wWoNOE1MZ/view?usp=sharing' target="_blank">Downloade Resume</a>
                     <a className="btn btn-primary mx-5" target="_blank" href='https://web.facebook.com/messages/t/100015152085518/'>Hire Me</a>
 
                     <div className='w-full'>
