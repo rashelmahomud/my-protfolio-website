@@ -1,10 +1,13 @@
 import React from 'react';
-import WhatsApp from '../WhatsApp';
+
+import WhatsApp from "../Whatsapp"
 
 const Footer = () => {
     return (
         <div>
+           
             <WhatsApp />
+            
             <div className='text-center'>
                 <ul className="steps text-center">
                     <li className="step step-primary">CALL</li>
