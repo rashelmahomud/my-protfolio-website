@@ -9,7 +9,7 @@ const Navber = () => {
                     <label tabindex="0" className="btn btn-ghost text-red-500 lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabindex="0" className="menu menu-compact text-xl dropdown-content mt-3 p-2 shadow font-mono pragraph-color rounded-box w-52">
+                    <ul tabindex="0" className="menu menu-compact text-xl bg-gray-500 dropdown-content mt-3 p-2 shadow font-mono pragraph-color rounded-box w-52">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/blogs">Blogs</Link></li>
                         <li><Link to="/video">Video</Link></li>
